@@ -1,7 +1,7 @@
 # Karafun Unlocker
 A simple unlocker for Karafun .kfn files
 
-The original code was made by [Josiah Winslow](https://github.com/WinslowJosiah).
+The [original code](https://gist.github.com/WinslowJosiah/2bffe00b5abf1817a512988c87903225) was made by [Josiah Winslow](https://github.com/WinslowJosiah).
 I just developed the graphical interface to help users that doesn't have knowledge with Python and terminal.
 
 ## About the environment
