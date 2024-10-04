@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "karafun-unlocker"
+version = "0.1.0"
+description = ""
+authors = ["Renato Bessa <renato.bessa@global.ntt>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cryptography = "^43.0.1"
+requests = "^2.32.3"
+
+[tool.poetry-pyinstaller-plugin.scripts]
+my-api = { source = "karafun_unlocker/main.py", type = "onefile", bundle = false }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
