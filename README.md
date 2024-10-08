@@ -6,7 +6,7 @@ I just developed a very simple graphical interface to help users that doesn't ha
 
 ## How to use
 
-Just download the .exe file [here](https://github.com/renatopejon/karafun-unlocker/releases/tag/v1.0) and open it.
+Just download the .exe file [here](https://github.com/renatopejon/karafun-unlocker/releases/tag/v1.1) and open it.
 
 ![Screenshot of the KFN File Unlocker software interface with fields for input and output files, an "Unlock File" button, and a GitHub repository link.](https://i.imgur.com/Pof6FMa.png)
 
