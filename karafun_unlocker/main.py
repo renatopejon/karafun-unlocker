@@ -197,7 +197,7 @@ def unlock_kfn(kfn: KFNFile):
 
         # Parse song config
         config = ConfigParser()
-        config.read_string(subfile.data.decode())
+        config.read_string(subfile.data.decode("cp1252"))
         for section in config.sections():
             # Skip sections that aren't effects
             if not section.lower().startswith("eff"):
@@ -213,7 +213,7 @@ def unlock_kfn(kfn: KFNFile):
         config_io = StringIO()
         config.write(config_io)
         config_io.seek(0)
-        subfile.data = config_io.read().encode()
+        subfile.data = config_io.read().encode("cp1252")
         subfile.length = len(subfile.data)
 
     return kfn
